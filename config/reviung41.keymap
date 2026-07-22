@@ -61,12 +61,12 @@
 
                 adjust_layer {
 // -----------------------------------------------------------------------------------------
-// | POWER | RGB SAT+ | RGB HUE+ | RGB ANI+ | RGB BRI+ | RGB TOG |   | PLAY |     |     |     |     |     |
-// | RESET | RGB SAT- | RGB HUE- | RGB ANI- | RGB BRI- |         |   | NEXT |     |     |     |     |     |
-// | SLEEP |          |          |          |          |         |   | PREV |     |     |     |     |     |
+// | POWER | RGB SAT+ | RGB HUE+ | RGB ANI+ | RGB BRI+ | RGB TOG |   | PLAY | NKRO |     |     |     |     |
+// | RESET | RGB SAT- | RGB HUE- | RGB ANI- | RGB BRI- |         |   | NEXT |      |     |     |     |     |
+// | SLEEP |          |          |          |          |         |   | PREV |      |     |     |     |     |
 //                                                  |     |     |     |     |     |
                         bindings = <
-   &kp C_PWR   &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_TOG    &kp C_PP   &none &none &none &none &none
+   &kp C_PWR   &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_TOG    &kp C_PP   &nkro &none &none &none &none
    &sys_reset  &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none              &kp C_NEXT &none &none &none &none &none
    &kp C_SLEEP &none           &none           &none           &none           &none              &kp C_PREV &none &none &none &none &none
                                                                                   &none &none &trans &trans &none
