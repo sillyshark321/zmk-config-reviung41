@@ -55,7 +55,7 @@
    &trans &kp F1 &kp F4 &kp F7 &kp F10 &kp LG(SPACE)   &kp C_MUTE   &kp LC(LS(TAB)) &kp UP        &kp LC(TAB) &kp PG_UP &kp HOME
    &trans &kp F2 &kp F5 &kp F8 &kp F11 &kp PSCRN       &kp C_VOL_UP &kp LEFT        &kp DOWN      &kp RIGHT   &kp PG_DN &kp END
    &trans &kp F3 &kp F6 &kp F9 &kp F12 &kp LA(TAB)     &kp C_VOL_DN &kp DEL         &kp C_AL_CALC &kp LG(DOT) &kp LG(V) &trans
-                                 &LALT &LGUI &trans &mo 3 &RALT
+                                  &kp LALT &kp LGUI &trans &mo 3 &kp RALT
                         >;
                 };
 
@@ -66,10 +66,10 @@
 // | SLEEP |          |          |          |          |         |   | PREV |     |     |     |     |     |
 //                                                  |     |     |     |     |     |
                         bindings = <
-   &kp C_PWR   &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_TOG    &kp C_PP   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
-   &sys_reset  &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none              &kp C_NEXT &none        &none        &none        &none        &none
-   &kp C_SLEEP &none           &none           &none           &none           &none              &kp C_PREV &none        &none        &none        &none        &none
-                                                                       &none      &none       &trans        &trans      &none
+   &kp C_PWR   &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_TOG    &kp C_PP   &none &none &none &none &none
+   &sys_reset  &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none              &kp C_NEXT &none &none &none &none &none
+   &kp C_SLEEP &none           &none           &none           &none           &none              &kp C_PREV &none &none &none &none &none
+                                                                                  &none &none &trans &trans &none
                         >;
                 };
         };
