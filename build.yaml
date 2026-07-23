@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: bluemicro840_v1
+  - board: bluemicro840
     shield: reviung41
