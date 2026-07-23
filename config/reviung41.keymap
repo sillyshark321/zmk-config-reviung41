@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
+// I don't fucken know where to put this
+&led_strip {
+    chain-length = <11>;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -70,8 +75,3 @@
                 };
         };
 };
-
-// I don't fucken know where to put this
-// &led_strip {
-//     chain-length = <11>;
-// };
